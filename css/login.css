@@ -1,0 +1,138 @@
+.top_header {
+  height: 44px;
+  background: #000;
+  font-size: 12px;
+}
+.top_header .w {
+  display: flex;
+}
+.top_header .top_header_left {
+  color: #b4a078;
+  line-height: 44px;
+  margin-right: 500px;
+}
+.top_header .top_header_right ul {
+  display: flex;
+}
+.top_header .top_header_right ul li {
+  padding: 12px 0;
+}
+.top_header .top_header_right ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 0 10px;
+  border-right: 1px solid #5c5c5c;
+}
+.top_header .top_header_right ul li .none {
+  border-right: 0;
+}
+.header {
+  height: 175px;
+}
+.header .header_top {
+  padding: 30px 0;
+  display: flex;
+}
+.header .header_top .img {
+  width: 124px;
+  height: 70px;
+  margin-right: 200px;
+  background: url(../img/hxm_yanlogo.png) no-repeat 0 -197px;
+}
+.header .header_top .search {
+  position: relative;
+  padding: 6px 0;
+}
+.header .header_top .search i {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  display: inline-block;
+  width: 15px;
+  height: 28px;
+  background: url(../img/hxm_yanlogo.png) no-repeat 0 -303px;
+}
+.header .header_top .search input {
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  width: 500px;
+  height: 30px;
+}
+.header .header_top .search span {
+  display: inline-block;
+  width: 80px;
+  height: 33px;
+  line-height: 30px;
+  text-align: center;
+  background: #b4a078;
+  border-radius: 0 10px 10px 0;
+}
+.header .header_top .search div {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.header .header_top .car {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  margin: 6px 0 0 963px;
+  text-align: center;
+  border: 1px solid #b7a47d;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.header .header_top .car i {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 17px;
+  background: url(../img/hxm_yanlogo.png) no-repeat 0 -116px;
+}
+.header .header_top .car span {
+  color: #b7a47d;
+  font-size: 12px;
+}
+.header .header_top .car em {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  right: -6px;
+  width: 20px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: url(../img/hxm_yanlogo.png) no-repeat 0 -45px;
+}
+.header .header_bottom {
+  font-size: 14px;
+}
+.header .header_bottom ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header_bottom ul li a {
+  color: #000;
+  font-weight: 700;
+}
+.header .header_bottom ul .line {
+  width: 1px;
+  height: 20px;
+  background: #5c5c5c;
+}
+.container {
+  margin-bottom: 30px;
+}
+.container .w {
+  position: relative;
+  height: 600px;
+  background: url(../img/dl_bg.jpg) no-repeat top center;
+}
+.container .login_box {
+  position: absolute;
+  top: 35px;
+  right: 55px;
+  width: 480px;
+  height: 496px;
+  background: #b4a078;
+}
